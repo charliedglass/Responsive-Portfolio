@@ -1,0 +1,104 @@
+html{
+    height: 100%;
+}
+body{
+    /*position: relative;*/
+    /*Background image pattern*/
+    background-image: url("../images/pipes.png");
+    /*min-height: 100%;
+    padding: 0;
+    margin: 0;
+    color: #777777;*/
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.header_container{
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+
+#header{
+    width: 52%;
+    margin: auto;
+    /*margin-bottom: 40px;*/
+    /*height: 100px;*/
+    position: relative;
+}
+
+.navbar{
+    padding-bottom: 0;
+    padding-top: 30px;
+
+}
+
+
+a:hover{
+    color: blue !important;
+}
+
+
+
+/*Use of line-height and text-align: center; and vertical-align: middle
+to essentially center text in div*/
+
+.name_tag{
+    height: 70px;
+    line-height: 70px;
+    width: 180px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white !important;
+    background-color: #4aaaa5;
+}
+
+.content_container{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 100px;
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 1px solid #dddddd;
+}
+
+h1{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+.profile_pic{
+    /* height: 15%;
+    width: 15%; */
+    padding-right: 20px;
+    /*Profile pic floats left of bio text*/
+    /* float: left; */
+}
+
+.bio{
+    line-height: 2;
+}
+
+.footer{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #666666;
+    border-top: 7px solid #4aaaa5;
+}
+
+.footer_text{
+    width: 100%;   
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    font-size: 12px;
+}
+
